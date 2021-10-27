@@ -22,16 +22,3 @@ else:
     pay = fhours * frate
     print('Total Pay:',pay)
     
-    
-    
-    if fhours > 40:
-    #print("Overtime")
-    rgpay = fhours * frate
-    otpay = (fhours - 40.0) * (frate * 0.5)
-    #print(rgpay,pay)
-    pay = rgpay + otpay
-    print('Total Pay:',pay)
-else:
-   #print("Regular")
-    pay = fhours * frate
-    print('Total Pay:',pay)
